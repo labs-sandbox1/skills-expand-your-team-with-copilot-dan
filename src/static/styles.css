@@ -644,13 +644,23 @@ footer {
   .sidebar-filters {
     width: 100%;
   }
+
+  /* Adjust positioning for mobile */
+  #user-controls {
+    right: 50px;
+  }
+
+  #dark-mode-toggle {
+    padding: 4px 8px;
+    font-size: 1rem;
+  }
 }
 
 /* User controls in header */
 #user-controls {
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 70px;
 }
 
 #user-status {
@@ -724,9 +734,4 @@ footer {
 
 #dark-mode-toggle:active {
   transform: scale(0.95);
-}
-
-/* Adjust user controls positioning when dark mode toggle is present */
-#user-controls {
-  right: 100px;
 }
